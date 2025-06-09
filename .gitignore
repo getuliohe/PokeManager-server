@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# Local settings
+local_settings.py
+.env
+
+# VS Code and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Node (if using with React frontend in the same repo)
+node_modules/
+build/
+dist/
+
+# Coverage and testing
+.coverage
+htmlcov/
+coverage.xml
+nosetests.xml
+test-results/
+
+# Pipenv
+Pipfile.lock
+
+# Migrations (optional, if you want to ignore auto-generated files)
+# ** Caution: keep migrations if sharing with a team **
+# */migrations/*.py
+# */migrations/*.pyc
